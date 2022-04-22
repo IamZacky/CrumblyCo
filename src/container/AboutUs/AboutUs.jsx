@@ -46,7 +46,7 @@ const AboutUs = () => {
         <div className="app__aboutus-content_about">
           <h1 className="headtext__cormorant">About Us</h1>
           <img src={spoon} alt="about_spoon" className="spoon__img" />
-          <p className="p__opensans text-gray-300">The Crumbly Company offers a wide range of baked products from cakes, cookies,pastries, and even breads.
+          <p className="p__opensans text-gray-300">The Crumbly Company offers a wide range of baked products from cakes, cookies,pastries, and even breads. <br />
             For us, using high quality ingredients helps in giving our customers an unforgettable experience.
             Quality is our top priority that is why our products are inspired by the quote “food is not simply an organic fuel to keep body and soul together, it is a perishable art that must be savoured at the peak of perfection” when we decided to make our cookies and products.
           </p>
@@ -68,7 +68,7 @@ const AboutUs = () => {
             To be one of the benchmark in the baking industry.
           </p>
           <p className="text-gray-300 font-bold mt-4 tracking-wide">Vision</p>
-          <p className="text-gray-300 mt-4">To continuously improve so we can attain and maintain our goal to be the benchmark in our industry and exceed our customer’s expectations</p>
+          <p className="text-gray-300 mt-4 lg:mb-16 xl:mb-0 2xl:mb-5">To continuously improve so we can attain and maintain our goal to be the benchmark in our industry and exceed our customer’s expectations</p>
         </div>
       </div>
     </div>

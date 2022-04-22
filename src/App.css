@@ -131,6 +131,15 @@
   .app__wrapper_img img {
     width: 100%;
   }
+
+  .headtext__cormorant {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+  .p__opensans {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 850px) {
