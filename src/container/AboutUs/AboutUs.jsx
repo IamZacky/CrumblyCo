@@ -68,7 +68,7 @@ const AboutUs = () => {
             To be one of the benchmark in the baking industry.
           </p>
           <p className="text-gray-300 font-bold mt-4 tracking-wide">Vision</p>
-          <p className="text-gray-300 mt-4 lg:mb-16 xl:mb-0 2xl:mb-5">To continuously improve so we can attain and maintain our goal to be the benchmark in our industry and exceed our customer’s expectations</p>
+          <p className="text-gray-300 mt-4 lg:mb-16 xl:mb-8 2xl:mb-5">To continuously improve so we can attain and maintain our goal to be the benchmark in our industry and exceed our customer’s expectations</p>
         </div>
       </div>
     </div>
