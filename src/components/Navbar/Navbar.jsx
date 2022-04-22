@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 // css
 import './navbar.css';
@@ -30,8 +31,8 @@ const Navbar = () => {
                 <li className="p__opensans"><a href="#contact">Contact</a></li>
             </ul>
             <div className="app__navbar-login">
-                <a href="#login" className="p__opensans">Order Now</a>
-                <a href="#login" className="p__opensans">FAQs</a>
+                <NavLink to="/order-form" className="p__opensans">Order Now</NavLink>
+                <NavLink to="/faqs" className="p__opensans">FAQs</NavLink>
             </div>
             <div className="app__navbar-smallscreen">
                 <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
