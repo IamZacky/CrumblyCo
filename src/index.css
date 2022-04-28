@@ -83,3 +83,7 @@ a {
 .image-gallery-right-nav {
   z-index: 1;
 }
+
+.orderForm__container {
+  margin: 0 auto;
+}
