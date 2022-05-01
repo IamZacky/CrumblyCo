@@ -6,6 +6,7 @@ import "./App.css";
 
 /* Pages */
 import OrderForm from "./components/Pages/OrderForm";
+import Faq from "./components/Pages/Faq";
 
 /* Components */
 import {
@@ -32,7 +33,7 @@ const App = () => {
           <Footer />
         </Route>
         <Route exact path="/order-form" component={OrderForm} />
-        <Route exact path="/faqs" component={{}} />
+        <Route exact path="/faqs" component={Faq} />
       </Switch>
     </Router>
   );

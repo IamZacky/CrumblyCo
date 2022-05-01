@@ -45,7 +45,7 @@ const Navbar = () => {
                             <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
                             <li><a href="#collabs" onClick={() => setToggleMenu(false)}>Collabs</a></li>
                             <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
-                            <li><a href="#contact" onClick={() => setToggleMenu(false)}>Order Now</a></li>
+                            <li><a href="/order-form" onClick={() => setToggleMenu(false)}>Order Now</a></li>
                         </ul>
                     </div>
                 )}

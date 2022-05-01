@@ -1,5 +1,9 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+
+import { NavLink } from 'react-router-dom';
+
+import { FiFacebook, FiInstagram } from 'react-icons/fi';
+import { AiFillGoogleCircle } from 'react-icons/ai';
 
 import { FooterOverlay } from '../../components';
 
@@ -27,9 +31,9 @@ const Footer = () => (
         <p className="p__opensans">&quot;What we have here just ain't about simple breads, this is not your ordinary bakery.&quot;</p>
         <img src={spoon} className="spoon__img" style={{ marginTop: 15 }} alt="ihihih" />
         <div className="app__footer-links_icons flex gap-4 justify-center items-center">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a target="_blank" href="https://www.facebook.com/thecrumblycompany/"><FiFacebook /></a>
+          <NavLink target="_blank" to={{ pathname: "mailto:thecrumblycompany@gmail.com" }}><AiFillGoogleCircle /></NavLink>
+          <a target="_blank" href="https://www.instagram.com/thecrumblycompany/"><FiInstagram /></a>
         </div>
       </div>
 

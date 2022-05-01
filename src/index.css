@@ -87,3 +87,18 @@ a {
 .orderForm__container {
   margin: 0 auto;
 }
+
+.accordion__container {
+  margin: 0 auto;
+}
+
+.accordion__button {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.accordion__button:hover {
+  background-color: transparent;
+}
