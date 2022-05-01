@@ -27,8 +27,8 @@ const Faq = () => {
             <br/><br/>
             <div className="flex flex-col items-center justify-center text-white">
                 <p className="text-xl font-semibold mb-4">FAQs</p>
-                <h1 className="text-[3rem] font-serif font-semibold tracking-wide mb-4 custom:text-[1.5rem] sm:text-[1.5rem] md:text-[1.5rem] lg:text-[3rem] xl:text-[3rem]">Frequently asked questions</h1>
-                <p className="text-xl custom:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl">Have questions? We're here to help.</p>
+                <h1 className="text-[3rem] text-center whitespace-nowrap font-serif font-semibold tracking-wide mb-4 custom:text-[1.5rem] sm:text-[1.5rem] md:text-[1.5rem] lg:text-[3rem] xl:text-[3rem]">Frequently asked questions</h1>
+                <p className="text-xl text-center custom:text-base sm:text-base md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl">Have questions? We're here to help.</p>
             </div>
             <br/><br/>
 
@@ -135,7 +135,7 @@ const Faq = () => {
             <div className="bg-[#0C0C0C] flex flex-col items-center justify-center text-white">
                 <br/><br/>
                 <img src={faq} alt="faq_logo" className="w-[150px] custom:w-[100px] lg:w-[150px] xl:w-[150px]" />
-                <h1 className="text-[2.5rem] font-serif font-semibold tracking-wide mb-4 custom:text-[1.5rem] sm:text-[1.5rem] md:text-[1.5rem] lg:text-[2.5rem]">Still have questions?</h1>
+                <h1 className="text-[2.5rem] text-center whitespace-nowrap font-serif font-semibold tracking-wide mb-4 custom:text-[1.5rem] sm:text-[1.5rem] md:text-[1.5rem] lg:text-[2.5rem]">Still have questions?</h1>
                 <p className="text-xl custom:text-base lg:text-xl text-center p-2">Can't find the answer your looking for? Contact us at {" "} 
                     <NavLink target="_blank" to={{ pathname: "mailto:thecrumblycompany@gmail.com" }} className="text-[#DCCA87] font-serif tracking-wider">thecrumblycompany@gmail.com</NavLink>
                 </p>
