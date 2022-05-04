@@ -22,8 +22,8 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">Philippines</p>
-        <p className="p__opensans">+63 999 9999 999</p>
-        <p className="p__opensans">+63 999 9999 999</p>
+        <p className="p__opensans">+63 933 8733 734</p>
+        <p className="p__opensans">+63 928 7960 740</p>
       </div>
 
       <div className="app__footer-links_logo">
