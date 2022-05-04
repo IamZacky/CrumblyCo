@@ -48,6 +48,10 @@ const Gallery = () => {
     }
   };
 
+  const handleInstagram = () => {
+    window.location = "https://www.instagram.com/thecrumblycompany/";
+  }
+
   return (
     <div className="app__gallery flex__center">
       <div ref={ref} className="app__gallery-content">
@@ -84,7 +88,7 @@ const Gallery = () => {
           {[images.g1, images.g2, images.g3, images.g4, images.g5, images.g6, images.g7, images.g8].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
-              <BsInstagram className="gallery__image-icon" />
+              <BsInstagram className="gallery__image-icon" onClick={handleInstagram} />
             </div>
           ))}
         </div>

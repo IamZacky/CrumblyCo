@@ -23,17 +23,29 @@ const App = () => {
   return (
     <Router>
       <Switch>
+
+        {/* Ito yung pinaka main page */}
         <Route exact path="/">
-          <Navbar />
+          {/* Navbar */}
+          <Navbar /> 
+          {/* Header */}
           <Header />
+          {/* About */}
           <AboutUs />
+          {/* Menu */}
           <SpecialMenu />
+          {/* Photo Gallery */}
           <Gallery />
+          {/* Collaborations */}
           <Intro />
+          {/* Contact Us at Footer */}
           <Footer />
         </Route>
+
+        {/* Ito yung mga links papunta sa Order saka sa FAQ */}
         <Route exact path="/order-form" component={OrderForm} />
         <Route exact path="/faqs" component={Faq} />
+        
       </Switch>
     </Router>
   );

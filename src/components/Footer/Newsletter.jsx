@@ -16,7 +16,7 @@ const Newsletter = () => {
           </div>
           <div className="app__newsletter-input flex__center flex flex-col gap-4">
             <input type="email" placeholder="Enter your email address" />
-            <input type="email" placeholder="Enter your phone number" />
+            <input type="number" placeholder="Enter your phone number" />
             <textarea className="resize-none" placeholder="Enter your concern or inquiry here" />
             <button type="button" className="custom__button px-5 py-3 text-lg tracking-wide font-semibold text-gray-800 bg-[#F5EFDB] border-[1px] border-gray-300 font-serif">Send Now</button>
           </div>
