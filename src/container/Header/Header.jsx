@@ -241,15 +241,15 @@ const Header = () => (
 
       <br />
 
-      <motion.button
+      <motion.a
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ type: 'spring', duration: 1, delay: 0.35 }}
-        type="button"
+        href="#menu"
         className="custom__button px-5 py-3 text-lg tracking-wide font-semibold text-gray-800 bg-[#F5EFDB] border-[1px] border-gray-300 font-serif"
       >
         Explore Menu
-      </motion.button>
+      </motion.a>
 
     </div>
 
