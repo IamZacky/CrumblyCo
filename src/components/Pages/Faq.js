@@ -137,7 +137,7 @@ const Faq = () => {
                 <img src={faq} alt="faq_logo" className="w-[150px] custom:w-[100px] lg:w-[150px] xl:w-[150px]" />
                 <h1 className="text-[2.5rem] text-center whitespace-nowrap font-serif font-semibold tracking-wide mb-4 custom:text-[1.5rem] sm:text-[1.5rem] md:text-[1.5rem] lg:text-[2.5rem]">Still have questions?</h1>
                 <p className="text-xl custom:text-base lg:text-xl text-center p-2">Can't find the answer your looking for? Contact us at {" "} 
-                    <NavLink target="_blank" to={{ pathname: "mailto:thecrumblyco@gmail.com" }} className="text-[#DCCA87] font-serif tracking-wider">thecrumblycompany@gmail.com</NavLink>
+                    <NavLink target="_blank" to={{ pathname: "mailto:thecrumblyco@gmail.com" }} className="text-[#DCCA87] font-serif tracking-wider">thecrumblyco@gmail.com</NavLink>
                 </p>
                 <br/><br/>
             </div>
