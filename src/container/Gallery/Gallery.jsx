@@ -53,7 +53,7 @@ const Gallery = () => {
   }
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id="gallery">
       <div ref={ref} className="app__gallery-content">
 
         <motion.a

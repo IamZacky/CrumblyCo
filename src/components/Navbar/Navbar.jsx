@@ -27,6 +27,7 @@ const Navbar = () => {
                 <li className="p__opensans"><a href="/">Home</a></li>
                 <li className="p__opensans"><a href="#about">About</a></li>
                 <li className="p__opensans"><a href="#menu">Menu</a></li>
+                <li className="p__opensans"><a href="#gallery">Gallery</a></li>
                 <li className="p__opensans"><a href="#collabs">Collabs</a></li>
                 <li className="p__opensans"><a href="#contact">Contact</a></li>
             </ul>
@@ -42,6 +43,7 @@ const Navbar = () => {
                         <ul className="app__navbar-smallscreen_links">
                             <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
                             <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
+                            <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Gallery</a></li>
                             <li><a href="#collabs" onClick={() => setToggleMenu(false)}>Collabs</a></li>
                             <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
                             <li><a href="/order-form" onClick={() => setToggleMenu(false)}>Order Now</a></li>
