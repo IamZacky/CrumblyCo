@@ -32,7 +32,7 @@ const Footer = () => (
         <img src={spoon} className="spoon__img" style={{ marginTop: 15 }} alt="ihihih" />
         <div className="app__footer-links_icons flex gap-4 justify-center items-center">
           <a target="_blank" href="https://www.facebook.com/thecrumblycompany/"><FiFacebook /></a>
-          <NavLink target="_blank" to={{ pathname: "mailto:thecrumblycompany@gmail.com" }}><AiFillGoogleCircle /></NavLink>
+          <NavLink target="_blank" to={{ pathname: "mailto:thecrumblyco@gmail.com" }}><AiFillGoogleCircle /></NavLink>
           <a target="_blank" href="https://www.instagram.com/thecrumblycompany/"><FiInstagram /></a>
         </div>
       </div>
